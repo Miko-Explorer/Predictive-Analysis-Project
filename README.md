@@ -406,11 +406,13 @@ Contributions are welcome! To improve this project:
 This project is open source and available under the MIT License.
 
 ---
-## 👤 Author
-
-**Miko-Explorer**
-- GitHub: [@Miko-Explorer](https://github.com/Miko-Explorer)
-- Project: Disease Outbreak Risk Prediction System
+## 👨‍💻 Author & Contributors
+### Contributors
+- Benedict Caliba - UST | BS Data Science and Analytics
+- Thom Daniel Yutuc - UST | BS Data Science and Analytics
+### Author
+- Miko-Explorer 
+- [GitHub Profile](https://github.com/Miko-Explorer)
 
 ---
 ## 📞 Support & Questions
