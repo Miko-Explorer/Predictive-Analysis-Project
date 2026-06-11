@@ -1,7 +1,8 @@
-# 🏥 Disease Outbreak Risk Prediction System
+# Disease Outbreak Risk Prediction System
 
 A machine learning-based predictive analysis system designed to forecast disease outbreak risks by analyzing epidemiological data across Philippine regions. This project implements both baseline and advanced machine learning models to predict high-risk disease locations.
 
+---
 ## 📋 Project Overview
 
 This project predicts whether disease cases will increase in the next week for specific regions and diseases. It analyzes historical disease data including:
@@ -14,6 +15,7 @@ This project predicts whether disease cases will increase in the next week for s
 
 The system aims to support public health officials in resource allocation and outbreak prevention.
 
+---
 ## 🎯 Key Features
 
 ### Target Prediction
@@ -27,6 +29,7 @@ The system aims to support public health officials in resource allocation and ou
 - **Low Risk Locations**: 12,236 (69%)
 - **Imbalanced Dataset**: Requires balanced class weights in models
 
+---
 ## 🤖 Machine Learning Models
 
 ### 1. **Logistic Regression Model** (Baseline)
@@ -88,6 +91,7 @@ An ensemble learning method using multiple decision trees for improved accuracy.
 - Provides feature importance scores
 - Better performance on imbalanced datasets
 
+---
 ## 📊 Model Evaluation Metrics
 
 ### Accuracy
@@ -114,6 +118,7 @@ An ensemble learning method using multiple decision trees for improved accuracy.
 - **Best For**: Imbalanced datasets
 - **Syntax**: `f1 = f1_score(y_true, y_pred)`
 
+---
 ## 📁 Project Structure
 
 ```
@@ -126,6 +131,7 @@ Predictive-Analysis-Project/
 └── Application/                       # Application code
 ```
 
+---
 ## 🔧 Technologies & Libraries
 
 ```python
@@ -147,6 +153,7 @@ sklearn.metrics          # Accuracy, Precision, Recall, F1
 Google Colab          # Cloud execution
 ```
 
+---
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -174,6 +181,7 @@ jupyter notebook "Machine Learning Model.ipynb"
 
 Or use **Google Colab** for cloud-based execution (recommended for large datasets).
 
+---
 ## 📖 How to Use
 
 ### Step 1: Load and Preview Data
@@ -267,6 +275,7 @@ print(f"Recall: {recall_score(y_test, predictions):.2%}")
 print(f"F1-Score: {f1_score(y_test, predictions):.2%}")
 ```
 
+---
 ## 📈 Expected Results
 
 | Metric | Logistic Regression | Random Forest |
@@ -278,6 +287,7 @@ print(f"F1-Score: {f1_score(y_test, predictions):.2%}")
 
 *Note: Actual results depend on data split and random state*
 
+---
 ## 💡 Key Insights
 
 1. **Class Imbalance**: Dataset is imbalanced (31% HIGH, 69% LOW)
@@ -293,23 +303,25 @@ print(f"F1-Score: {f1_score(y_test, predictions):.2%}")
 
 4. **Geographic Variation**: Region and Barangay show location-specific risks
 
+---
 ## 🔬 Model Justification
 
 ### Why Logistic Regression?
-✅ Simple baseline for comparison
-✅ Interpretable coefficients
-✅ Fast training
-✅ Requires minimal features
-❌ Limited to linear relationships
+- ✅ Simple baseline for comparison
+- ✅ Interpretable coefficients
+- ✅ Fast training
+- ✅ Requires minimal features
+- ❌ Limited to linear relationships
 
 ### Why Random Forest?
-✅ Handles non-linear patterns
-✅ Works with high-dimensional categorical data
-✅ Provides feature importance
-✅ Better for imbalanced data
-✅ No feature scaling required
-❌ Less interpretable (black box)
+- ✅ Handles non-linear patterns
+- ✅ Works with high-dimensional categorical data
+- ✅ Provides feature importance
+- ✅ Better for imbalanced data
+- ✅ No feature scaling required
+- ❌ Less interpretable (black box)
 
+---
 ## 📊 Dataset Information
 
 **Source**: Philippine Disease Outbreak Data
@@ -326,6 +338,7 @@ print(f"F1-Score: {f1_score(y_test, predictions):.2%}")
 4. Applied one-hot encoding for categorical variables
 5. Stratified train-test split (70-30)
 
+---
 ## 🤝 Contributing
 
 Contributions are welcome! To improve this project:
@@ -344,6 +357,7 @@ Contributions are welcome! To improve this project:
 - Deploy as web service (Flask, FastAPI)
 - Add SHAP explainability analysis
 
+---
 ## 📝 Model Parameters Reference
 
 ### Logistic Regression Parameters
@@ -366,6 +380,7 @@ Contributions are welcome! To improve this project:
 | `min_samples_leaf` | 1 | 1-2 | Higher = less overfitting |
 | `random_state` | None | 42 | For reproducibility |
 
+---
 ## 🧮 Data Distribution
 
 **Regional Distribution:**
@@ -385,16 +400,19 @@ Contributions are welcome! To improve this project:
 **Temporal Coverage:**
 - Morbidity Weeks 1-52 (full calendar year cycle)
 
+---
 ## 📄 License
 
 This project is open source and available under the MIT License.
 
+---
 ## 👤 Author
 
 **Miko-Explorer**
 - GitHub: [@Miko-Explorer](https://github.com/Miko-Explorer)
 - Project: Disease Outbreak Risk Prediction System
 
+---
 ## 📞 Support & Questions
 
 For questions or issues:
@@ -403,6 +421,7 @@ For questions or issues:
 3. Open an issue on GitHub
 4. Contact the project maintainer
 
+---
 ## 🎓 Learning Resources
 
 - [Scikit-learn Documentation](https://scikit-learn.org/)
@@ -410,9 +429,8 @@ For questions or issues:
 - [Random Forest Guide](https://en.wikipedia.org/wiki/Random_forest)
 - [Machine Learning Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)
 - [Class Imbalance Handling](https://imbalanced-learn.org/)
-
+  
 ---
-
 **Last Updated**: June 2026
 **Status**: Active Development
 **Language Composition**: Jupyter Notebook (98.8%), Python (1.2%)
